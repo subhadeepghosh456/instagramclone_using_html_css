@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: rgba(214, 212, 212, 0.133);
+    
+}
+/* .side-bar{
+    width: 300px;
+    height: 100vh;
+    display: inline-block;
+    
+
+} */
+.sidebar-container{
+    width: 307px;
+    height: 100vh;
+    background-color: white;
+    border-right:1.5px solid rgb(228, 218, 218) ;
+    
+    bottom: 0;
+    top: 0;
+   
+
+}
+
+/* .side-bar-header{
+    padding-left: 30px;
+} */
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+/* side bar */
+.sidebar-container{
+    position: fixed;
+}
+
+h1{
+    font-size: 2.5rem;
+    letter-spacing: -1.8px;
+    font-weight: 300;
+    padding-left:50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+
+}
+.side-bar-header{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    
+}
+
+.sidebar-icon{
+    display: flex;
+    width: 100%;
+    /* height: 0px; */
+    align-items: center;
+    font-size: 30px;
+    color: black;
+    padding-left: 23px;
+    padding-bottom: 40px;
+
+}
+
+.active{
+    font-weight: bolder;
+}
+
+.sidebar-icon p{
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.sidebar-icon a{
+    color: black;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.profile{
+   padding-left:40px ;
+}
+
+.sidebar-icon img{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 5px;
+    
+   
+}
+
+.side-bar-footer{
+    position: absolute;
+    bottom: 50px;
+    left: 37px;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    
+}
+
+.side-bar-footer p{
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.side-bar-footer a{
+    margin-left: 10px;
+}
+
+/* middle section */
+.middle-section-container{
+    width: 580px;
+    margin-left: 300px;
+    height: 100vh;
+    position: relative;
+    left: 300px;
+    
+    
+}
+
+.middle-section-header{
+    width: 100%;
+    height: 149px;
+    background-color: white;
+    border: 1px solid rgba(105, 99, 99, 0.696);
+    border-radius: 10px;
+    position: absolute;
+    top: 35px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    
+}
+
+.img-container{
+
+    display: inline-block;
+    flex-direction: row;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 5px;
+    margin-right: -8px;
+}
+
+.img-container img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    border:3px solid rgb(195, 10, 158);
+    padding: 3px;
+}
+
+.img-container p{
+    
+    margin-top: -3px;
+}
+
+.img-container:hover{
+    cursor: pointer;
+
+}
+
+
+.middle-section-body{
+    
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: relative;
+    top: 210px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.middle-section-head{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.caption{
+    display: flex;
+
+}
+
+.title{
+    padding-left: 8px;
+    padding-top: 12px;
+}
+
+.img-body img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(195, 10, 158);
+    padding: 2px;
+}
+
+.icon a{
+    font-size: 1.3rem;
+    color: black;
+    padding-right: 10px;
+
+}
+.hero{
+    width: 100%;
+    
+}
+
+ .hero img{
+    width: 100%
+} 
+
+
+
+.footer-icon{
+    display: flex;
+    padding: 15px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.icon-left{
+    font-size: 1.8rem;
+    display: flex;
+    gap:20px;
+    
+}
+
+.icon-left a{
+    color: black;
+}
+
+.icon-left a:hover{
+  color: gray;
+}
+
+.icon-right{
+    font-size: 1.8rem;
+}
+
+.icon-right a{
+   color: black;
+}
+
+.icon-right a:hover{
+    color: gray;
+}
+
+.footer-hero{
+    padding-inline: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.top-footer{
+    display: flex;
+}
+
+.cmt-img1{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+
+.cmt-img2{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+
+.cmt-img1 img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+}
+
+.cmt-img2 img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    margin-left: -9px;
+}
+
+.footer-hero p{
+   margin-left: 5px;
+   margin-top: 5px;  
+   font-size: 1.2rem;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.gray{
+    color: rgb(169, 169, 169);
+}
+.mid{
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.footer-cmt{
+    width: 100%;
+    padding-inline: 15px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(128, 128, 128, 0.214);
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.add-cmt{
+    display: flex;
+    gap: 15px;
+}
+.post{
+    color: rgb(100, 163, 230);
+}
+
+.side-section{
+    position: relative;
+    left: 340px;
+    top: 65px;
+    width: 450px;
+}
+
+.self-profile{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-id{
+    justify-content: center;
+    gap: 5px;
+    font-size: 1.3rem;
+}
+
+.self-profile img{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    
+}
+
+.name{
+    display: flex;
+    gap: 20px;
+
+}
+
+.blue{
+    color: rgb(52, 109, 177);
+}
+
+.suggestion{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+
+}
+
+.suggestion-profile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.suggestion-profile-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero2{
+    display: flex;
+    gap: 15px;
+    
+
+}
+
+.follow{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    color: rgb(52, 109, 177);
+    font-weight: bolder;
+}
+
+.hero-detail{
+    height: 43px;
+    justify-content: space-between;
+}
+
+.hero2 img{
+   height: 43px;
+   width: 43px;
+   border-radius: 50%;
+}
+
+
+
+
+
+
